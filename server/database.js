@@ -3,7 +3,7 @@ const OffersList = require('./models/OffersSchema');
 const RidesList = require('./models/RidesSchema');
 const UsersList = require('./models/UsersSchema');
 
-mongoose.connect('mongodb://mongodb-service/cloud1', function () {
+mongoose.connect('mongodb://localhost/Carpoolz', function () {
   console.log('db connected');
   mongoose.connection.db.dropDatabase();
 

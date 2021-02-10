@@ -18,7 +18,7 @@ const app = express();
 app.use(cors());
 
 mongoose.connect(
-  `mongodb://mongodb-service/cloud1`, {
+  `mongodb://localhost/Carpoolz`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
     })
